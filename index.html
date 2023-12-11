@@ -1,0 +1,50 @@
+<!-- Tells browser it is written in Html -->
+<!DOCTYPE html>
+<!-- tells it is coded in english not any other langauge -->
+<html lang="en">
+<!-- contains the head elements -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- Links the html to css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="audio.html">Audio</a>
+        <a href="boards1.html">Boards</a>
+        <a href="tables.html">Tables</a>
+        <a href="flashcards.html">Flashcards</a>
+        <a href="functions.html">Sim/Er Frenzy</a>
+        <a href="classobjects.html">Nasa Simulation</a>
+    </nav>
+    <!-- This will be our container for favorite Football player -->
+    <div class="container">
+        <h1>Favorite Football Player</h1>
+        <!-- Tell the user what they have to do -->
+        <p>Welcome, Please input favorite American Football Player</p>
+        <!-- Added a form that gets the users favorite footballer -->
+        <form id="footballPlyr">
+            <!-- Added a label for the first name text box -->
+            <label for="firstName">Player First Name:</label>
+            <!-- Here we add the first name text box for the user to type in -->
+            <input type="text" id="firstName" name="firstName" placeholder="Enter Player's first name" required><br><br>
+            <!-- Add a label for player last name -->
+            <label for="lastName">Player Last Name:</label>
+            <input type="text" id="lastName" placeholder="Enter Player's last name" required><br><br>
+            <input type="submit" value="Thanks!">
+        </form>
+
+    </div>
+    <!-- Created a footer for final -->
+    <footer>
+        <p>
+            Alexander Garcia<br>
+            University of Advancing Technology<br>
+            2625 W Baseline Rd,<br>
+            &copy, 2023, CSC102 Final Project
+        </p>
+    </footer>
+</body>
+</html>
